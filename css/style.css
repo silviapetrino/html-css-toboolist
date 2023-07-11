@@ -15,6 +15,7 @@ body {
   max-width: 640px;
   margin: 0 auto;
   border-radius: 5px;
+  padding-left: 30px;
 }
 
 header {
@@ -39,7 +40,6 @@ header span {
 
 #buttons {
   padding: 10px;
-  padding-left: 30px;
   border-bottom: 2px solid #FAFBFB;
 }
 
@@ -61,3 +61,28 @@ header span {
   border: 1px solid rgb(149, 148, 148);
 }
 
+/* lista */
+
+.lista {
+  list-style: none;
+}
+
+.elemento {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #42464F;
+}
+
+.check-ok, .check-no {
+  padding: 0px 4px;
+  border-radius: 50%;
+  border: 1px solid;
+}
+
+.check-ok {
+  color: green;
+}
+
+.check-no {
+  color: red;
+}
