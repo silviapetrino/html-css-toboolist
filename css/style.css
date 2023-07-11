@@ -9,8 +9,17 @@ body {
   background-color: #F6F8F9;
 }
 
+.container {
+  background-color: white;
+  width: 80%;
+  max-width: 640px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
 header {
   padding: 7px 20px;
+  margin-bottom: 30px;
   background-color: white;
 }
 
@@ -25,3 +34,30 @@ header span {
   margin-left: 3px;
   vertical-align: middle;
 }
+
+/* bottoni */
+
+#buttons {
+  padding: 10px;
+  padding-left: 30px;
+  border-bottom: 2px solid #FAFBFB;
+}
+
+.button {
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 0.6rem;
+}
+
+.button.add-task {
+  background-color: #47ADF1;
+  color: white;
+  border: none;
+}
+
+.button.add-section {
+  background-color: white;
+  color: rgb(149, 148, 148);
+  border: 1px solid rgb(149, 148, 148);
+}
+
