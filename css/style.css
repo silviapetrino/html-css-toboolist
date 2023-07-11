@@ -15,7 +15,7 @@ body {
   max-width: 640px;
   margin: 0 auto;
   border-radius: 5px;
-  padding-left: 30px;
+  padding-top: 10px;
 }
 
 header {
@@ -31,16 +31,25 @@ header img {
 
 header span {
   font-size: 30px;
-  font-weight: 750;
+  font-weight: 770;
   margin-left: 3px;
   vertical-align: middle;
 }
 
+#list {
+  margin-top: 20px;
+}
+
+#buttons, #list {
+  padding-left: 25px;
+}
+
+
 /* bottoni */
 
 #buttons {
-  padding: 10px;
-  border-bottom: 2px solid #FAFBFB;
+ padding-bottom: 8px;
+ border-bottom: 1px solid rgb(214, 213, 213);
 }
 
 .button {
@@ -61,30 +70,42 @@ header span {
   border: 1px solid rgb(149, 148, 148);
 }
 
+
 /* lista */
 
 .lista {
   list-style: none;
+  font-size: 15px;
+  padding: 10px;
 }
 
-.elemento {
+.lista .elemento-principale {
   font-size: 1rem;
   font-weight: 700;
   color: #42464F;
 }
 
+.elemento {
+  font-size: 0.8rem;
+  padding: 8px;
+}
+
 .check-ok, .check-no {
-  padding: 0px 4px;
+  padding: 0 3px;
   border-radius: 50%;
   border: 1px solid;
 }
 
 .check-ok {
-  color: green;
+  color: lightseagreen;
 }
 
 .check-no {
   color: red;
+}
+
+.lista .item {
+  margin-left: 5px;
 }
 
 .lista .colored-item {
@@ -118,3 +139,5 @@ header span {
 .lista .colored-item.lightgreen {
   background-color: #AFC825;
 }
+
+
