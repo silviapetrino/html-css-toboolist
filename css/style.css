@@ -86,3 +86,35 @@ header span {
 .check-no {
   color: red;
 }
+
+.lista .colored-item {
+  background-color: red;
+  color: white;
+  font-size: 0.6rem;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.lista .colored-item.blu {
+  background-color: #45ABEA;
+}
+
+.lista .colored-item.violet {
+  background-color: #9C72E4;
+}
+
+.lista .colored-item.green {
+  background-color: #62BEA7;
+}
+
+.lista .colored-item.orange {
+  background-color:#F29E33;
+}
+
+.lista .colored-item.pink {
+  background-color: #D65D9D;
+}
+
+.lista .colored-item.lightgreen {
+  background-color: #AFC825;
+}
