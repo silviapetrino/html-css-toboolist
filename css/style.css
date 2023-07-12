@@ -56,12 +56,14 @@ header span {
   border-radius: 5px;
   padding: 5px;
   font-size: 0.6rem;
+  border: none;
+  cursor: pointer;
 }
 
 .button.add-task {
   background-color: #47ADF1;
   color: white;
-  border: none;
+  border: 1px solid #47ADF1;
 }
 
 .button.add-section {
